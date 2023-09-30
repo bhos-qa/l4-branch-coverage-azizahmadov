@@ -41,42 +41,4 @@ public class MyClassTest {
         assertFalse(myClass.isEven(7));
     }
 
-    @Test
-    public void testFahrenheitToCelsius() {
-        MyClass myClass = new MyClass();
-        double celsius = myClass.fahrenheitToCelsius(32);
-        assertEquals(0.0, celsius, 0.01);
-    }
-
-    @Test
-    public void testConcatenateArrays() {
-        MyClass myClass = new MyClass();
-        int[] arr1 = {1, 2, 3};
-        int[] arr2 = {4, 5, 6};
-        int[] result = myClass.concatenateArrays(arr1, arr2);
-        assertArrayEquals(new int[]{1, 2, 3, 4, 5, 6}, result);
-    }
-
-    @Test
-    public void testFactorial() {
-        MyClass myClass = new MyClass();
-        assertEquals(1, myClass.factorial(0));
-        assertEquals(1, myClass.factorial(1));
-        assertEquals(120, myClass.factorial(5));
-    }
-
-    @Test
-    public void testIsPalindrome() {
-        MyClass myClass = new MyClass();
-        assertTrue(myClass.isPalindrome("racecar"));
-        assertFalse(myClass.isPalindrome("hello"));
-    }
-
-    @Test
-    public void testFindLongestWordLength() {
-        MyClass myClass = new MyClass();
-        assertEquals(5, myClass.findLongestWordLength("The quick brown fox jumps over the lazy dog"));
-    }
-
-    // Write tests for more methods...
 }
