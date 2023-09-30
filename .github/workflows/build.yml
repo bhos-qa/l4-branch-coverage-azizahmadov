@@ -1,8 +1,7 @@
-name: Sonar Cloud Analysis
-
+name: SonarCloud
 on:
   pull_request:
-    branches: ["feature/lab4"]
+    branches: ["develop"]
 
   workflow_dispatch:
 
