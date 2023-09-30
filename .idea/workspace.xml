@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4531b3f-0194-4909-aaca-a31cf8c3c188" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696077069487</updated>
       <workItem from="1696077070262" duration="5000" />
-      <workItem from="1696077151468" duration="2542000" />
+      <workItem from="1696077151468" duration="2629000" />
     </task>
     <servers />
   </component>
